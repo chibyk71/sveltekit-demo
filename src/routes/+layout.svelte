@@ -1,11 +1,11 @@
 <script>
   import "../app.postcss";
   import Appbar from "$lib/Appbar.svelte";
-  import Loader from "$lib/loader.svelte";
+  // import Loader from "$lib/loader.svelte";
 </script>
 
 <Appbar />
 
-<Loader />
+<!-- <Loader /> -->
 <!-- page loader -->
 <slot />
