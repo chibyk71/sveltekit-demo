@@ -1200,13 +1200,18 @@ header.transparent .topbar{
     vertical-align: middle;
 }
 ul.web-elements {
-    float: right;
+    /* float: right; */
     line-height: 50px;
     list-style: outside none none;
     margin: 0;
     padding-left: 0;
     vertical-align: middle;
+    position: relative;
 }
+
+ul.web-elements.flex.items-center.relative {}
+
+ul.web-elements.flex.items-center.relative {}
 .header-right > ul > li {
     display: inline-block;
     margin: 0 15px;
@@ -1613,8 +1618,11 @@ ul.web-elements {
 }
 .header-right ul.web-elements > li {
     margin: 0 5px;
-	position: relative;
+    position: static;
+    position: relative;
 }
+
+li {}
 .header-right ul.web-elements > li > a > i {
     display: inline-block;
     font-size: 16px;
@@ -1634,12 +1642,13 @@ ul.web-elements {
 .header-right ul.web-elements > li:hover .dropdown{
 	opacity: 1;
 	visibility: visible;
+    display:inline-block;
 }
 .dropdown {
     background: #fff none repeat scroll 0 0;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+    display:none;
     line-height: initial;
     list-style: outside none none;
     margin-bottom: 0;
@@ -1649,9 +1658,9 @@ ul.web-elements {
     top: 100%;
     width: 340px;
     z-index: 9;
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.2s linear 0s;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s linear 0s;
 }
 .dropdown > li {
     display: inline-block;
@@ -22218,7 +22227,7 @@ fieldset:disabled .btn {
 .dropend,
 .dropdown,
 .dropstart {
-  position: relative;
+  /* position: relative; */
 }
 
 .dropdown-toggle {
@@ -53675,6 +53684,13 @@ header .header-section {
   align-items: center;
 }
 
+.header-section {
+    /* overflow: hidden; */
+    /* max-height: 73px; */
+}
+
+.header-section.relative {}
+
 header .header-section .header-btn {
   position: relative;
 }
@@ -53905,7 +53921,7 @@ header .mobile-fix-menu {
   width: 100vw;
   background-color: #0389c9;
   height: 50px;
-  display: none;
+  display: block;
 }
 
 header .navbar-nav .back-btn {
