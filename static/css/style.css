@@ -1217,7 +1217,7 @@ ul.web-elements {
     z-index: 0;
 }
 
-.header-right > ul li > a {
+.header-right > ul>div>li > a {
     display: inline-block;
     text-transform: capitalize;
 }
@@ -1236,8 +1236,7 @@ ul.web-elements {
 	display: block;
 }
 .user-dp {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #088dcd;
+    background: #deebf3 none repeat scroll 0 0;
     border-radius: 30px;
     cursor: pointer;
     display: inline-block;
@@ -1260,7 +1259,7 @@ ul.web-elements {
 }
 
 .user-dp .name > h4 {
-    color: #3e3f5e;
+    color: #3E3F58;
     display: inline-block;
     font-size: 13px;
     margin-top: 0;
@@ -1626,12 +1625,15 @@ ul.web-elements {
     position: relative;
 }
 
-.header-right ul.web-elements li > a > i {
+.header-right ul.web-elements div > li > a > i {
     display: inline-block;
     font-size: 16px;
     line-height: initial;
-    vertical-align: text-bottom;
+    vertical-align: middle;
+    color: #088dcd;
 }
+
+i {}
 .header-right ul.web-elements >li > span,
 .header-right ul.web-elements >div > li > span {
     background: #ff7373 none repeat scroll 0 0;
@@ -1649,11 +1651,11 @@ ul.web-elements {
 	visibility: visible;
     display:inline-block;
 }
-.dropdown {
+.dropdown {   
     background: #fff none repeat scroll 0 0;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    display:none;
+    display: inline-block;
     line-height: initial;
     list-style: outside none none;
     margin-bottom: 0;
@@ -1679,9 +1681,11 @@ ul.web-elements {
 .dropdown > li:nth-child(3n) {
     margin-right: 0;
 }
+
 .dropdown > li:last-child{
 	margin-bottom: 0
 }
+
 .dropdown > li > a {
     border-radius: 5px;
     color: #1f273f;
@@ -1691,18 +1695,22 @@ ul.web-elements {
     text-align: center;
     width: 100%;
 }
+
 .dropdown > li > a:hover{
 	background: #deebf3;
 }
+
 .dropdown > li > a.logout {
     background: #ff7373;
     border-color: #ff2727;
     color: #fff;
 }
+
 .dropdown > li > a i {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
+    color: #088dcd;
 }
 .dropdown > li.logout {
     vertical-align: middle;
