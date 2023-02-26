@@ -13,7 +13,9 @@
   <Leftbar />
   <!-- <Loader /> -->
   <!-- page loader -->
-  <slot />
-  <RightBar />
+  <div class="page-center">
+    <slot />
+  </div>
+    <RightBar />
 </div>
   
