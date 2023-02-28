@@ -56,7 +56,7 @@
         <li>
             <a href="birthday.html">
                 <svg class="bar-icon fill-white">
-                    <use xlink:href="../assets/svg/icons.svg#cake"></use>
+                    <use xlink:href="svg/icons.svg#cake"></use>
                 </svg>
                 <div class="tooltip-cls">
                     <span>Birthday</span>
@@ -66,7 +66,7 @@
         <li class="inner-list">
             <a href="games.html">
                 <svg class="bar-icon fill-white">
-                    <use xlink:href="../assets/svg/icons.svg#game-controller"></use>
+                    <use xlink:href="svg/icons.svg#game-controller"></use>
                 </svg>
                 <div class="tooltip-cls">
                     <span>Games</span>
@@ -84,30 +84,30 @@
                         aria-hidden="true" tabindex="-1" style="width: 20px;">
                         <div>
                         <li style="width: 100%; display: inline-block;">
-                            <a href="#" tabindex="-1"><img src="../assets/images/icon/game/2.jpg" alt=""></a>
+                            <a href="#" tabindex="-1"><img src="images/icon/game/2.jpg" alt=""></a>
                         </li>
                     </div>
                 </div>
                 <div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/3.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/3.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/4.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/4.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="0"><img src="../assets/images/icon/game/1.jpg" alt=""></a>
+                    <a href="#" tabindex="0"><img src="images/icon/game/1.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="0"><img src="../assets/images/icon/game/2.jpg" alt=""></a>
+                    <a href="#" tabindex="0"><img src="images/icon/game/2.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="0"><img src="../assets/images/icon/game/3.jpg" alt=""></a>
+                    <a href="#" tabindex="0"><img src="images/icon/game/3.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/4.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/4.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-cloned" data-slick-index="4" id="" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/1.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/1.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/2.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/2.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/3.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/3.jpg" alt=""></a>
                 </li></div></div><div class="slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" tabindex="-1" style="width: 20px;"><div><li style="width: 100%; display: inline-block;">
-                    <a href="#" tabindex="-1"><img src="../assets/images/icon/game/4.jpg" alt=""></a>
+                    <a href="#" tabindex="-1"><img src="images/icon/game/4.jpg" alt=""></a>
                 </li></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: inline-block;">Next</button></ul>
         </li>
     </ul>

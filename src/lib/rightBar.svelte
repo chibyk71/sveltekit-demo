@@ -55,12 +55,12 @@
                 </div>
             </a>
         </div>
-        <div id="accordion" class="friend-list collapse show">
+        <div id="accordion" class="friend-list">
             <ul>
                 <li class="friend-box user1">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/1.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/1.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats"></span>
                         </div>
                         <div class="media-body">
@@ -71,8 +71,8 @@
                 </li>
                 <li class="friend-box user2">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/2.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/2.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/2.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats online"></span>
                         </div>
                         <div class="media-body">
@@ -94,12 +94,12 @@
                 </div>
             </a>
         </div>
-        <div id="accordion1" class="friend-list collapse show">
+        <div id="accordion1" class="friend-list">
             <ul>
                 <li class="friend-box user3">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/3.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/3.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/3.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/3.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats"></span>
                         </div>
                         <div class="media-body">
@@ -110,8 +110,8 @@
                 </li>
                 <li class="friend-box user4">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/4.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/4.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/4.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/4.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats offline"></span>
                         </div>
                         <div class="media-body">
@@ -122,8 +122,8 @@
                 </li>
                 <li class="friend-box user5">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/5.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/5.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/5.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/5.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats online"></span>
                         </div>
                         <div class="media-body">
@@ -134,8 +134,8 @@
                 </li>
                 <li class="friend-box user6">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/6.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/6.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/6.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/6.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats"></span>
                         </div>
                         <div class="media-body">
@@ -146,8 +146,68 @@
                 </li>
                 <li class="friend-box user7">
                     <div class="media">
-                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;../assets/images/user-sm/7.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
-                            <img src="../assets/images/user-sm/7.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/7.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/7.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                            <span class="available-stats away"></span>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="user-name">Anna Mull</h5>
+                            <h6>alabma, USA</h6>
+                        </div>
+                    </div>
+                </li>
+                <li class="friend-box user3">
+                    <div class="media">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/3.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/3.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                            <span class="available-stats"></span>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="user-name">Josephin water</h5>
+                            <h6>alabma, USA</h6>
+                        </div>
+                    </div>
+                </li>
+                <li class="friend-box user4">
+                    <div class="media">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/4.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/4.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                            <span class="available-stats offline"></span>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="user-name">Petey Cruiser</h5>
+                            <h6>alabma, USA</h6>
+                        </div>
+                    </div>
+                </li>
+                <li class="friend-box user5">
+                    <div class="media">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/5.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/5.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                            <span class="available-stats online"></span>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="user-name">Anna Sthesia</h5>
+                            <h6>alabma, USA</h6>
+                        </div>
+                    </div>
+                </li>
+                <li class="friend-box user6">
+                    <div class="media">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/6.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/6.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
+                            <span class="available-stats"></span>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="user-name">Paul Molive</h5>
+                            <h6>alabma, USA</h6>
+                        </div>
+                    </div>
+                </li>
+                <li class="friend-box user7">
+                    <div class="media">
+                        <div class="user-img bg-size blur-up lazyloaded" style="background-image: url(&quot;images/user-sm/7.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat; display: block;">
+                            <img src="images/user-sm/7.jpg" class="img-fluid blur-up lazyload bg-img" alt="user" style="display: none;">
                             <span class="available-stats away"></span>
                         </div>
                         <div class="media-body">

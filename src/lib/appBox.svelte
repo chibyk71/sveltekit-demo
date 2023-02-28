@@ -68,7 +68,7 @@
                 <a href="#">
                     <div class="icon">
                         <svg class="bar-icon">
-                            <use class="fill-color" xlink:href="../assets/svg/icons.svg#cake"></use>
+                            <use class="fill-color" xlink:href="svg/icons.svg#cake"></use>
                         </svg>
                     </div>
                     <h5>event</h5>
@@ -80,7 +80,7 @@
                 <a href="games.html">
                     <div class="icon">
                         <svg class="bar-icon">
-                            <use class="fill-color" xlink:href="../assets/svg/icons.svg#game-controller">
+                            <use class="fill-color" xlink:href="svg/icons.svg#game-controller">
                             </use>
                         </svg>
                     </div>
