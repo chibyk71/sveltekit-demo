@@ -77,7 +77,7 @@
                 <button class="slick-prev slick-arrow inline-block" aria-label="Previous" type="button">
                     Previous
                 </button>
-                <div class="slick-list draggable h-22">
+                <div class="slick-list h-24 draggable">
                     <div class="slick-track" style="opacity: 1; height: 319px; transform: 
                     translate3d(0px, -87px, 0px);">
                         <div class="slick-slide slick-cloned" data-slick-index="-3" id="" 

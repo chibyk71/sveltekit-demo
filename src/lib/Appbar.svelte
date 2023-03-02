@@ -135,8 +135,8 @@
                     <form method="post">
                         <input type="text" placeholder="Search..." on:focusout={() => recentSearch.classList.remove("active")}
                             on:focusin={() => recentSearch.classList.add("active")}/>
-                        <button type="submit" ><i class="text-white fas fa-search" /></button>
-                        <span class="cancel-search"><i class="fas fa-times" /></span>
+                        <button type="submit" ><i class="text-white" data-feather="search" /></button>
+                        <span class="cancel-search"><i data-feather="x-circle" /></span>
                         <div class="recent-search" bind:this={recentSearch}>
                             <h4 class="recent-searches">Your's Recent Search </h4>
                             <ul class="so-history">

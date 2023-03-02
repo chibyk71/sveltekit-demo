@@ -18655,6 +18655,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  /* width: 100%; */
 }
 
 .img-thumbnail {
@@ -26077,7 +26078,7 @@ fieldset:disabled .btn {
 }
 
 .border {
-  border: 1px solid #dee2e6 !important;
+  /* border: 1px solid #dee2e6 !important; */
 }
 
 .border-0 {
@@ -35678,13 +35679,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   -webkit-tap-highlight-color: transparent;
 }
 
-.slick-list {
-  position: relative;
-  overflow: hidden;
-  display: block;
-  margin: 0;
-  padding: 0;
-}
+.slick-list {position: relative;overflow: hidden;display: block;margin: 0;padding: 0;}
 
 .slick-list:focus {
   outline: none;
@@ -51569,6 +51564,7 @@ header.home-landing .header-section .header-right {
 
 .post-panel {
   margin-bottom: 30px;
+  height: 100%;
 }
 
 .post-panel .post-wrapper {
@@ -51600,6 +51596,8 @@ header.home-landing .header-section .header-right {
   margin-right: 16px;
   position: relative;
   border-radius: 100%;
+  /* border: 5px solid red; */
+  /* overflow: auto; */
 }
 
 .post-panel .post-wrapper .profile .media .media-body h5,
@@ -52226,7 +52224,7 @@ header.home-landing .header-section .header-right {
   margin-top: 25px;
 }
 
-.comment-section .comments .main-comment .sub-comment .loader {
+.comment-section .comments .main-comment .sub-comment .load {
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52243,7 +52241,7 @@ header.home-landing .header-section .header-right {
   border-radius: 5px;
 }
 
-.comment-section .comments .main-comment .sub-comment .loader svg {
+.comment-section .comments .main-comment .sub-comment .load svg {
   margin-right: 10px;
 }
 
@@ -59346,7 +59344,7 @@ section {
     margin-left: 20px;
   }
 
-  .comment-section .comments .main-comment .sub-comment .loader {
+  .comment-section .comments .main-comment .sub-comment .load {
     margin-left: 20px;
   }
 
@@ -62026,7 +62024,7 @@ section {
     margin-top: 20px;
   }
 
-  .comment-section .comments .main-comment .sub-comment .loader {
+  .comment-section .comments .main-comment .sub-comment .load {
     margin-left: 20px;
   }
 
@@ -63840,12 +63838,12 @@ body.rtl {
   text-align: right;
 }
 
-.rtl .comment-section .comments .main-comment .sub-comment .loader {
+.rtl .comment-section .comments .main-comment .sub-comment .load {
   margin-left: 0;
   margin-right: 50px;
 }
 
-.rtl .comment-section .comments .main-comment .sub-comment .loader svg {
+.rtl .comment-section .comments .main-comment .sub-comment .load svg {
   margin-right: 0;
   margin-left: 10px;
 }
